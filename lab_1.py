@@ -44,19 +44,20 @@ def sign():
 
 def func():
     line = ' ' * 3
+    mind_line = ' '
     for y in range(64, 0, -1):
         if y <= 9:
             x = y ** 0.5
             if x == int(x):
                 print(f'\t{y}) {WHITE}{line * (int(x) - 1)}{BLACK}{line}{WHITE}{line * (10 - int(x))}{END}')
             else:
-                print(f'\t{y}) {WHITE}{line * 10}{END}')
+                print(f'\t{y}) {WHITE}{line * (int(x) - 1) + mind_line * 2}{BLACK}{mind_line}{WHITE}{line * (10 - int(x))}{END}')
         else:
             x = y ** 0.5
             if x == int(x):
                 print(f'\t{y}){WHITE}{line * (int(x) - 1)}{BLACK}{line}{WHITE}{line * (10 - int(x))}{END}')
             else:
-                print(f'\t{y}){WHITE}{line * 10}{END}')
+                print(f'\t{y}){WHITE}{line * (int(x) - 1) + mind_line * 2}{BLACK}{mind_line}{WHITE}{line * (10 - int(x))}{END}')
     print('\t0\t1  2  3  4  5  6   7   8   9')
 
 #func()
