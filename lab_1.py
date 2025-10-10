@@ -75,6 +75,6 @@ def zxc():
         else:
             cnt_minus += 1
     print("(+)", cnt_plus, "(-)",  cnt_minus)
-    print(f"+){RED}{" " * cnt_plus}{END}\n-){BLUE}{" " * cnt_minus}{END}")
+    print(f"+){RED}{" " * cnt_plus}{END}{cnt_plus*100/(cnt_minus+cnt_plus)}%\n-){BLUE}{" " * cnt_minus}{END}{cnt_minus*100/(cnt_minus+cnt_plus)}%")
 
-#zxc()
+zxc()
