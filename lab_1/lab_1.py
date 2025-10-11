@@ -15,7 +15,7 @@ def flag():
     for i in range(lenght):
         print(f'{BLUE}{line * (lenght // 3)}{WHITE}{line * (lenght // 3)}{RED}{line * (lenght // 3)}{END}')
 
-#flag()
+flag()
 
 # №2 Узор----------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@ def sign():
                 else:
                     print(f'{BLACK}{line * size}{WHITE}{line * size}{END}' * (lenght // 2) + f'{BLACK}{line * size}{END}')
 
-#sign()
+sign()
 
 # №3 Функция----------------------------------------------------------------------------
 
@@ -60,7 +60,7 @@ def func():
                 print(f'\t{y}){WHITE}{line * (int(x) - 1) + mind_line * 2}{BLACK}{mind_line}{WHITE}{line * (10 - int(x))}{END}')
     print('\t0\t1  2  3  4  5  6   7   8   9')
 
-#func()
+func()
 
 # №4 Условие----------------------------------------------------------------------------
 
