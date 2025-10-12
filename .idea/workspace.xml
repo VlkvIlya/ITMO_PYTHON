@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="4 commit">
-      <change afterPath="$PROJECT_DIR$/lab_2/books-en.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_2/currency.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_2/lab_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_2/lab_2_(xml).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/lab_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/lab_2_(csv).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,9 @@
     "Python.ewe.executor": "Run",
     "Python.lab_1.executor": "Run",
     "Python.lab_2.executor": "Run",
+    "Python.lab_2_(xml).executor": "Run",
     "Python.test.executor": "Run",
+    "Python.пример_xml.executor": "Run",
     "Python.фпфыв.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -136,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760200864129</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4 commit">
+      <option name="closed" value="true" />
+      <created>1760279653358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760279653358</updated>
+    </task>
+    <task id="LOCAL-00009" summary="4 commit">
+      <option name="closed" value="true" />
+      <created>1760280414352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760280414352</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
