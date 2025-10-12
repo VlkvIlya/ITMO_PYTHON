@@ -33,15 +33,21 @@ def search(table, author):
         if register(row[2], author)!= -1 and float(row[6].replace(',', '.')) < 150:
             title.append(row[1])
     print(f'Книги автора - {author}, ценой до 150:')
+    if not(title):
+        print(f'\t Поиск не дал результатов')
     for i in title:
         print(f'\t {i}')
 
 
 while True:
-    with open("books-en.csv", "r") as csvfile:
-        table = reader(csvfile, delimiter=";")
-        author = input("Введите автора: ")
-        search(table, author)
+    try:
+        with open("books-en.csv", "r") as csvfile:
+            table = reader(csvfile, delimiter=";")
+            author = input("Введите автора: ")
+            search(table, author)
+    except FileNotFoundError:
+        print('Файл "books-en.csv" не найден')
+
 
 
 # 3 подзадание (Реализовать генератор библиографических ссылок вида <автор>. <название> - <год> для 20 записей)
