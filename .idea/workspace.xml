@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="4 commit">
+      <change afterPath="$PROJECT_DIR$/lab_2/books-en.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_2/currency.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_2/lab_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.ewe.executor": "Run",
     "Python.lab_1.executor": "Run",
+    "Python.lab_2.executor": "Run",
     "Python.test.executor": "Run",
     "Python.фпфыв.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,6 +60,11 @@
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Документы\Documents\Учеба ЫТМО\Программирование на Python\Project\lab_1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760116317972</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4 commit">
+      <option name="closed" value="true" />
+      <created>1760200864129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760200864129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
