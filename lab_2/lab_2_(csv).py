@@ -16,6 +16,19 @@ with open("books-en.csv", "r") as csvfile:
     cnt(table)
 
 
+# 3 подзадание (Реализовать генератор библиографических ссылок вида <автор>. <название> - <год> для 20 записей)
+
+import random
+with open('result.txt', 'w') as output:
+    with open('books-en.csv') as csvfile:
+        table = list(reader(csvfile, delimiter=';'))
+        numb = []
+        while len(set(numb)) != 20:
+            numb.append(random.randint(1, len(table) - 1))
+        for i in numb:
+            output.write(f'{table[i][2]}. {table[i][1]} - {table[i][3]}\n')
+
+
 # 2 подзадание (Реализовать поиск книги по автору,
 # использовать ограничение на выдачу в зависимости от варианта (до 150 рублей))
 
@@ -44,9 +57,3 @@ while True:
             search(table, author)
     except FileNotFoundError:
         print('Файл "books-en.csv" не найден')
-
-
-# 3 подзадание (Реализовать генератор библиографических ссылок вида <автор>. <название> - <год> для 20 записей)
-
-def search_pro():
-    pass
