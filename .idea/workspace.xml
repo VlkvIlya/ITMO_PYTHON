@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="4 commit">
+    <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="доделал... вроде">
+      <change afterPath="$PROJECT_DIR$/lab_3/lab_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_2/lab_2_(csv).py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/lab_2_(csv).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/lab_2_(xml).py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/lab_2_(xml).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ewe.executor": "Run",
-    "Python.lab_1.executor": "Run",
-    "Python.lab_2.executor": "Run",
-    "Python.lab_2_(csv).executor": "Run",
-    "Python.lab_2_(xml).executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.пример_xml.executor": "Run",
-    "Python.фпфыв.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ewe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2_(csv).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2_(xml).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.пример_xml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.фпфыв.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Документы\Documents\Учеба ЫТМО\Программирование на Python\Project\lab_1" />
@@ -161,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760288404926</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="доделал... вроде">
+      <option name="closed" value="true" />
+      <created>1760473478162</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760473478162</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3 commit" />
     <MESSAGE value="4 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 commit" />
+    <MESSAGE value="доделал... вроде" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал... вроде" />
   </component>
 </project>

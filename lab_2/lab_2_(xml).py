@@ -23,4 +23,6 @@ for node in elements:
 
 print(namevalue)
 
+
+
 xml_file.close()
