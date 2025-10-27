@@ -1,11 +1,20 @@
+#В терминал: pip install pygame
+
 import tkinter as tk
 import random
+from pygame import mixer
+
+# pygame.init()
+mixer.init()
+
 
 alph = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ', '0123456789']
 
+
 def cancel():
     window.destroy()
-# крч создает 2 списка с 3 буквами и 2 цифрами и прост их раставляет а не вот это вот все
+
+
 def generate():
     string = ''
     for i in range(3):
@@ -39,12 +48,22 @@ def generate():
     word_label.configure(text=string)
 
 
+def sound():
+    try:
+        mixer.music.load("sound.mp3")  # Укажите путь к вашему MP3 файлу
+        mixer.music.play(-1)
+    except:
+        print("Нет файла sound.mp3")
+
+
+
 
 
 
 window = tk.Tk()
 window.title("KeyGeneration")
 window.geometry("600x400")
+sound()
 
 bg = tk.PhotoImage(file='bg.png')
 label_bg = tk.Label(window, image=bg)
