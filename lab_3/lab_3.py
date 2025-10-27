@@ -1,12 +1,11 @@
-#В терминал: pip install pygame
+#В терминал: pip install pygame (для звука) и pip install Pillow (для гифки)
 
 import tkinter as tk
 import random
 from pygame import mixer
+from PIL import Image, ImageTk, ImageSequence
 
-# pygame.init()
 mixer.init()
-
 
 alph = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ', '0123456789']
 
@@ -56,10 +55,6 @@ def sound():
         print("Нет файла sound.mp3")
 
 
-
-
-
-
 window = tk.Tk()
 window.title("KeyGeneration")
 window.geometry("600x400")
@@ -70,6 +65,29 @@ label_bg = tk.Label(window, image=bg)
 label_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
 
+
+gif_image = Image.open("golden_key.gif")
+gif_frames = []
+
+for frame in ImageSequence.Iterator(gif_image):
+    gif_frame = ImageTk.PhotoImage(frame.convert('RGB'))
+    gif_frames.append(gif_frame)
+
+current_frame = 0
+
+def gif():
+    global current_frame
+    if current_frame == len(gif_frames)-1:
+        current_frame = -1
+    current_frame = current_frame + 1
+    gif_label.configure(image=gif_frames[current_frame])
+    window.after(130, gif)
+
+gif_label = tk.Label(window)
+gif_label.place(x=350, y=155)
+gif()
+
+
 word_label = tk.Label(window,
                       text="XXXXX-XXXXX-XXXXX",
                       font=("Consolas", 42),
@@ -78,20 +96,20 @@ word_label = tk.Label(window,
 word_label.place(x=0, y=25, relwidth=1)
 
 
-btn_guess = tk.Button(window,
-                      width=25,
-                      height=3,
+btn_gen = tk.Button(window,
+                      width=27,
+                      height=4,
                       text="Generate",
                       command=generate)
-btn_guess.place(relx=0.1, rely=0.4)
+btn_gen.place(relx=0.1, y=160)
 
 
 btn_exit = tk.Button(window,
-                      width=25,
-                      height=3,
+                      width=27,
+                      height=4,
                       text="Cancel",
                       command=cancel)
-btn_exit.place(relx=0.1, rely=0.7)
+btn_exit.place(relx=0.1, y=270)
 
-
+print(ImageSequence.Iterator(gif_image))
 window.mainloop()
