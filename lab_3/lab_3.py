@@ -50,7 +50,7 @@ def generate():
 
 def sound():
     try:
-        mixer.music.load("sound.mp3")  # Укажите путь к вашему MP3 файлу
+        mixer.music.load("sound.mp3")
         mixer.music.play(-1)
     except:
         print("Нет файла sound.mp3")
