@@ -111,5 +111,5 @@ btn_exit = tk.Button(window,
                       command=cancel)
 btn_exit.place(relx=0.1, y=270)
 
-print(ImageSequence.Iterator(gif_image))
+
 window.mainloop()
