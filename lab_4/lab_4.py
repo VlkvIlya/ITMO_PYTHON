@@ -13,14 +13,14 @@ items = sorted(items, key=lambda x: x.point / x.size, reverse=True)
 
 # вариант 1
 # болезней нет
-knapsack_size = 2 * 4
+knapsack_size = 2 * 4-1
 points = 15
 
 knapsack = []
 answer = []
 weight = 0
 
-#delanswer = []
+delanswer = []
 
 while knapsack_size > weight:
     if (items[0].size + weight) <= knapsack_size:
@@ -28,7 +28,7 @@ while knapsack_size > weight:
         weight += items[0].size
         del items[0]
     elif (knapsack_size - weight) < items[0].size:
-        #delanswer.append(items[0].point)
+        delanswer.append(items[0].point)
         del items[0]
     else:
         break
@@ -40,8 +40,6 @@ for i in knapsack:
 
 for i in items:
     points -= i.point
-#points -= sum(delanswer)
+points -= sum(delanswer)
 
 print(f'Очки выживания - {points}\nРюкзак:\n{answer[:4]}\n{answer[4:]}')
-
-

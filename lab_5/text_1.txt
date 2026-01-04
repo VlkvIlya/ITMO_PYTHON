@@ -1,0 +1,137 @@
+We start by presenting one of the simplest circulation observables, that is, the variance of the circulation for loops of different sizes in quantum turbulence. The scaling of the circulation with the area of the loops is displayed in Fig. 2. For comparison purposes, we also perform direct
+numerical simulations of the Navier-Stokes equations (see Appendix C). We then compute the scaling of the circulation variance in the steady state at a Taylor-scale Reynolds number of Reλ ≈ 320. In the quantum flow, the circulation variance shows clear evidence of two scaling regimes. First, just like in the inertial range of classical turbulence, quantum turbulence displays a classical range,
+where the hΓ2 Ai ∼ A4=3 scaling predicted by K41 theory is observed. This range corresponds to integration loops of linear dimension r such that l ≪ r ≪ lI, where lI is the integral scale of the flow.
+In quantum turbulence, the emergence of K41 statistics for r ≫ l requires the partial polarization of vortex filaments [35,36], which effectively form bundles of corotating vortices [4]. For instance, because of vortex cancellations, a tangle of randomly oriented vortices would be associated with hjΓAj
+2i ∼ A in the classical range [35], which is different from the K41 estimate hjΓAj 2i ∼ A4=3
+verified in Fig. 2. On the other side of the spectrum, a fully polarized tangle (as may be found in quantum flows underpotation) is associated with the estimate hjΓAj 2i ∼ A2.
+Therefore, we see that K41 dynamics corresponds to a precise intermediate state between an isotropic and a fully polarized tangle. At small scales, classical and quantum flows display different power-law scalings. Viscous flows are smooth at very small scales, and the vorticity field may be considered
+a constant within a sufficiently small loop. By isotropy, it follows that hΓ2
+Ai ≈ hjωiAj
+2i ¼ 1
+3 hjωj
+2iA2 for small A.
+Equivalently, such scaling can be obtained by invoking the smoothness of the velocity field and performing a Taylor expansion around the center of the loop [20]. This viscous scaling is indeed observed in Fig. 2 for r ≪ λT. Here, λT ¼ vrms=ð∂xvxÞ2i p is the Taylor microscale, below which the dynamics of the flow is affected by viscosity in classical turbulence (see Ref. [37]). Note that
+we have used the Taylor microscale instead of the Kolmogorov length scale, which, for the present numerical simulations, is about 30 times smaller. This fact suggests that, in the correspondence between classical and quantum turbulence, the intervortex distance l may be compared to the Taylor microscale.
+On the contrary, for quantum turbulence, a less steep scaling is observed at small scales, which recalls the singular signature of the quantum vortex filaments. We will come back to this scaling later. In the following, we refer to the range ξ ≪ r ≪ l as the quantum range since it strongly differs from the dissipative range of classical turbulence. The quantum and the classical ranges are
+highlighted by different background colors in Fig. 2. We have checked that the above results are also observed in low-resolution simulations of the standard Gross-Pitaevskii model (data not shown).
+
+In quantum flows, the velocity circulation takes discrete values (multiples of the quantum of circulation κ), which contrasts with the continuous space of possible values in viscous flows. In statistical terms, its probability distribution is described by a probability mass function (PMF), the discrete analog of a probability density function (PDF). The discreteness of the circulation is most noticeable for loop sizes r smaller than the mean intervortex distance l, where the probability of a loop enclosing more than one vortex is vanishingly small, and Γr takes one of a small set of discrete values. This behavior is verified in Fig. 3(a), where the probability PrðnÞ of having a circulation Γr ¼ nκ, for small loop sizes, is shown. As expected, the PMFs are strongly peaked at Γr ¼ 0 for very small loop sizes, indicating that it is very unlikely for such a loop to enclose more than one vortex (vortex cancellation is negligible at those scales). The PMF becomes wider as r increases, and more vortices are allowed within an integration loop.
+The circulation PMF within the quantum range strongly differs from the (continuous) PDF of circulation in the
+small scales of classical turbulence. In isotropic flows, for a fixed loop size r in the dissipative range, the circulation PDF is equivalent to that of a vorticity component. Vorticity is a highly intermittent quantity in fully developed turbulence, and like other small-scale quantities, it is characterized by a strongly non-Gaussian distribution with long tails [39]. In that sense, and in regards to circulation, quantum turbulence presents a much simpler behavior despite its singular distribution of vorticity. Such a behavior could be useful for developing theoretical models of circulation.
+For larger loops with r=l > 1, the circulation takes increasingly larger values, and its discrete nature becomes
+less apparent. This behavior is seen in the circulation PMFs shown in Fig. 3(b), which may be approximated by
+continuous distributions. Within the classical range, these distributions seem to display exponential-like tails (red dashed lines). These distribution tails are compatible with those found in the inertial range of classical turbulence, which may be fitted by stretched exponentials [20] or modified exponentials [24].
+In classical turbulence, it is customary to characterize velocity intermittency by evaluating the departure of the moments of velocity increments from K41 self-similarity theory [14]. For the same purposes, a few studies have also considered the moments of circulation [15,16,18–20,24]. In the following, we consider the moments hjΓrj
+pi in quantum turbulence resulting from the circulation distributions discussed in the previous section. The aims are to characterize the validity of K41 theory in the classical range, to provide evidence of possible departures due to intermittency, and to elucidate the statistics of circulation at small scales resulting from the quantum nature of the flow. This analysis extends the discussion relative to the circulation
+variance (p ¼ 2), which is presented in Fig. 2 in the context of a comparison with classical flows.
+Circulation moments hjΓrj pi are shown in Fig. 4(a) as a function of the loop size r for different orders p. For each
+moment, a clear power-law scaling is identified in each of these ranges. We define the exponents of the power law as
+hjΓrj
+pi
+κp
+≈
+r
+l
+λp
+:
+
+To better characterize the exponents, one can compute the local scaling exponents λpðrÞ ¼ d½loghjΓrj pi=d½log r,
+which, for pure power laws, are flat. The local scaling exponents are presented in Fig. 4(b), where two different
+plateaux are observed in both ranges for each order p. 1. Quantum range At first glance, it is striking to note that all moments collapse in the quantum range, which suggests that circulation is extremely intermittent at these scales as a consequence of the quantum nature of the flow. Indeed, as inferred from Fig. 3 and discussed in the previous section, a random loop of characteristic length r ≪ l will almost never enclose more than a single vortex filament. By the definition of the intervortex distance l, at such small scales, the probability of
+finding a vortex within a loop is simply βr ¼ r2=l2 . From there, it follows that hjΓrj
+pi¼ð0×κÞpð1−βrÞþð1×κÞpβr
+since only zero or one vortex might lie inside the loop. This simple model leads to the prediction
+hjΓrj
+pi
+κp
+≈
+r
+l
+2
+for r ≪ l; ð4Þ which is precisely the law observed in Fig. 4 at small scales. 
+
+Remarkably, the simulation results capture not only the predicted scaling exponent λp ¼ 2 [as verified in Fig. 4(b)]
+but also the prefactor l−2
+
+The independence of the circulation scaling exponents
+
+λp on the moment order p translate the extreme intermittency of circulation at quantum scales. This result is a clear consequence of quantum physics, as it results from the quantization of circulation and the discrete nature of vortex filaments. As seen in Fig. 2, it is in stark contrast with the small-scale physics of viscous flows, characterized by smooth velocity fields, which lead to very different circulation statistics scaling as r2p.
+2. Classical range For larger loops of size l ≪ r ≪ lI, circulation moments in Fig. 4 follow different power laws, with a scaling exponent λp that increases with the moment order p. Kolmogorov’s phenomenology gives a prediction for the scaling of circulation moments in this regime. Assuming self-similarity across scales, the K41 predictions for the circulation moments about loops of area A ¼ r2 are of the form
+hjΓrj
+pi ¼ Cpεp=3r4p=3 for l ≪ r ≪ lI ð5Þ
+for positive moment order p, where ε is the incompressible kinetic energy dissipation rate per unit mass and Cp are, supposedly, universal constants. Similarly to classical K41 scalings, Eq. (5) results from dimensional arguments and the assumption that, within the classical range, the statistics of Γr depends only on ε and r.
+The local scaling exponents displayed in Fig. 4(b) exhibit a plateau in the classical range, confirming the
+power-law behavior of circulation moments at those scales. For low-order moments (p < 3), the exponents approximately match the K41 prediction, plotted as dashed horizontal lines. This observation is consistent with the scaling of the circulation variance in Fig. 2. On the other hand, higher-order moments yield lower exponent values than those predicted by K41 theory. This departure is clear evidence of circulation intermittency in the classical range of quantum turbulence. Moreover, it is qualitatively consistent with the trends observed in the inertial range of classical turbulence [15,16,18–20]. A more quantitative comparison of the scaling exponents in classical and quantum flows is provided in the next section.
+
+C. Scaling exponents in the classical regime
+
+We finally quantify the anomalous exponents of the circulation in the classical range of the quantum turbulent
+tangle. With this aim, we average the local scaling exponents over a range of loop sizes within l ≪ r ≪ lI.
+The precise averaging range is given by the green area in (a) (b) FIG. 4. (a) The p-order moments of the circulation over square loops of area A ¼ r2 from the gGP simulation. (b) Local scaling exponents λpðrÞ ¼ d½loghjΓrj
+pi=d½log r. Dashed horizontal lines correspond to the K41 scalings λK41 p ¼ 4p=3. The blue dashed line shows PrðΓr ≠ 0Þ ¼ 1 − PrðΓr ¼ 0Þ, which corresponds to the pth circulation moment in the limit p → 0þ [Eq. (6)]. The blue and green areas, respectively, illustrate the quantum and classical regimes. MÜLLER, POLANCO, and KRSTULOVIC PHYS. REV. X 11, 011053 (2021)
+011053-6
+Fig. 4. As in Ref. [20], we also compute fractional circulation moments. However, note that we do not include negative moments p ∈ − 1; 0½, as done in that work, because the discrete nature of the circulation distribution in quantum flows results in a finite probability of having Γr ¼ 0, and thus negative order moments diverge.
+The circulation scaling exponents λp obtained from our simulations are shown in Fig. 5. As suggested by the behavior of the circulation moments discussed in the previous section, the departure from K41 scaling (solid red
+line in the figure) is weak for low-order moments, while it becomes significant for orders p ≥ 3.
+Strikingly, the scaling exponents are consistent with the recent results in high-Reynolds-number classical
+turbulence [20] (dashed lines in Fig. 5). To give some relevant context, that work provides evidence of a bifractal
+behavior of the scaling exponents. Concretely, for loworder moments p < 3, the exponents grow linearly as λp ¼ αp, with α ≈ 1.367. This robust scaling, almost independent of Reynolds number, is close but not exactly equal to the α ¼ 4=3 predicted from K41 phenomenology.
+As for orders p > 3, they are accurately described by a monofractal fit λp ¼ hp þ ð3 − DÞ, with a fractal dimension D and Hölder exponent h that display a weakReynolds-number dependence. At the highest Reynolds number studied in that work, they are estimated as D ≈ 2.2 and h ≈ 1.1. We stress that the above bifractal fit, which we adopt here for its simplicity, is empirically derived in Ref. [20] from direct numerical simulation data. Note that an alternative functional form of the scaling exponents λp in classical turbulence, which also closely matches the
+numerical data, has recently been proposed based on a dilute vortex gas model [22].
+For high-order moments, the anomalous exponents in the quantum-flow case display a behavior that is
+close to that observed in classical turbulence. The inset of Fig. 5 shows the relative deviation from K41 estimates, ðλK41
+p − λpÞ=λK41
+p , and its comparison with the bifractal model fitted in Ref. [20]. For p > 3, the bifractal model lies between error bars of our data, which hints at the universality of inertial-range dynamics across different turbulent systems.
+Low-order moments are particularly interesting. From a statistical point of view, the main contribution to those
+moments comes from loops having a very small circulation, which are the most probable ones (see Fig. 3). A loop with
+small circulation might either be the result of a region of the flow where there are few vortices or the opposite regime, where many vortices of opposite signs cancel each other’s contributions to the circulation. The last case corresponds to a very rare intermittent event. Such an idea was invoked by Iyer et al. [20] to explain the intermittency of low-order moments.
+In the case of quantum turbulence, the discrete nature of vortices is very important, and regardless of the size of the loop, there is always a nonzero probability of having a total zero circulation. In fact, we can relate low-order moments with such probability as
+hjΓrj pi ¼ X n≠0 jΓrj pPrðnÞ
+¼ 1 − Prð0Þ þ phlog jΓrji≠0 þ oðpÞ; ð6Þ where PrðnÞ is the circulation PMF and hO½Γri
+P ≠0 ¼
+n≠0 O½ΓrPrðnÞ. The above expression results from the Taylor expansion jΓrj p ¼ 1 þ p log jΓrj þ oðpÞ around
+p ¼ 0 and the fact that h1i≠0 ¼ 1 − Prð0Þ. Remarkably, the probability of having zero circulation displays a clear
+r−4=3 power-law scaling in the classical regime, as shown in Fig. 6. This power law is related to a partial polarization of the quantum vortices. Indeed, in the case of a fully polarized tangle, we trivially have that Prð0Þ ¼ 0, as all vortices have the same sign within a loop. In the opposite regime of a totally unpolarized tangle, we have that Prð0Þ ∼ r−1. This scaling results from considering N ∼ ðr=lÞ2 homogeneously distributed uncorrelated vortices enclosed in a loop of size r and computing the probability of having exactly N=2 positive vortices among those N. Such probability is simply given by 2−Nð N N=2Þ ≈ 2=Nπ p ∼ ðr=lÞ−1
+.
+The r−4=3 scaling thus corresponds to a partial polarization of the tangle. Note that the transition between the quantum and the classical regimes is manifest. At small scales, we find that Prð0Þ ¼ 1 − ðr=lÞ2, which corresponds to the probability of not finding any vortex. FIG. 5. Scaling exponents of the circulation moments for loop
+sizes within the classical range (l ≪ r ≪ lI). Blue circles with error bars correspond to gGP simulations. The solid line show K41 scaling λK41 p ¼ 4p=3, and the dashed line shows the bifractal fit in classical turbulence [20]. Inset: relative deviation from K41 estimates, ðλK41 p − λpÞ=λK41
+p . Error bars indicate the standard deviation of each λp within the classical range. \
+NTERMITTENCY OF VELOCITY CIRCULATION IN QUANTUM … PHYS. REV. X 11, 011053 (2021)
+011053-7
+It is interesting that for classical flows, albeit the circulation takes continuous values, the probability PðjΓrj < ανÞ of having low circulation values presents the same power law in the inertial range, as also reported in Fig. 6. For a classical flow, this scaling can be derived by invoking K41 phenomenology, which predicts that the statistics of γ ¼ Γrε−1=3r−4=3 is scale invariant in this range. It follows that PðjΓrj < ανÞ ¼ Pðjγj < ανε−1=3r−4=3Þ∼ανε−1=3r−4=3 ð7Þ for α ≪ 1. Here, we assume that the PDF of γ is finite at zero. Besides, for r much smaller than the Taylor microscale λT, one has that Γr ∼ ωir2 (see Sec. III A) and a similar argument leads to PðjΓrj < ανÞ ∼ r−2, as is also displayed in Fig. 6 [40]. Again, the small scales of classical and quantum fluids strongly differ.
+Finally, note that the asymptotic approach predicted in Eq. (6) is clearly verified in Fig. 4 for low-order moments.
+The finite value of Prð0Þ in the quantum case implies a discontinuity of the moments when p → 0þ since hjΓrj
+0i ¼ 1. The subdominant power-law term in Eq. (6) explains the reduced inertial range observed in Fig. (5) for
+low-order moments.
+
+To model the presence of the roton minimum in superfluid 4 He, the governing equation includes an isotropic
+nonlocal interaction potential [31,65] Vˆ IðkÞ ¼ 
+1−V1
+ k
+krot2
+þV2
+ k
+krot4
+
+exp
+− k2
+2k2
+rot
+;
+ðB1Þ
+where Vˆ
+IðkÞ ¼ R
+eik·r
+VIðrÞd3r is the Fourier transform of the normalized interaction potential Vˆ Iðk ¼ 0Þ ¼ 1. The wave number associated with the roton minimum is denoted as krot, and V1 ≤ 0 and V2 ≤ 0 are two dimensionless parameters that are set to reproduce the dispersion relation of superfluid 4He (see Ref. [31]). This model also
+includes a beyond-mean-field correction controlled by two dimensionless parameters χ and γ that correspond to its amplitude and order, respectively. This term arises from considering a strong interaction between bosons.
+The parameters used in the simulations were set to krotξ ¼ 1.638, V1 ¼ 4.54, V2 ¼ 0.01, χ ¼ 0.1, and γ ¼ 2.8 in order to mimic the dispersion relation of superfluid 4 He. The speed of sound and the particle density are fixed as
+c ¼ 1 and n0 ¼ 1.
+
+APPENDIX C: NAVIER-STOKES SIMULATIONS
+
+Classical turbulence simulations are performed using the LaTu solver [66], which solves the incompressible NavierStokes equations ∂v ∂t
+þ v · ∇v ¼ −∇p þ ν∇2v þ f; ðC1Þ
+∇ · v ¼ 0 ðC2Þ
+using a standard Fourier pseudospectral method in a threedimensional periodic domain of size ð2πÞ3, with a thirdorder Runge-Kutta scheme for the temporal discretization. Here, ν is the fluid viscosity, p is the pressure field, and f is an external forcing that emulates a large-scale energy injection mechanism. The forcing is active within a spherical shell of radius jkj ≤ 2 in Fourier space. Simulations are performed on a grid of N3 ¼ 10243
+collocation points, at a Taylor scale Reynolds number Reλ ≈ 320. Circulation statistics are gathered once the
+simulation reaches a statistically steady state, when the energy injection and dissipation rates are in equilibrium. Circulation is computed from a set of velocity fields obtained from the simulations. As in the quantum turbulence simulations, circulation is computed from its velocity-based definition, Eq. (1), using the Fourier coefficients of the velocity field as described in Appendix A.
