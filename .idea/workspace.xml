@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="commit 1">
-      <change afterPath="$PROJECT_DIR$/lab_5/lab_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/text_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/text_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_5/text_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_6/lab_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_4/lab_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_4/lab_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,7 @@
     "Python.lab_3.executor": "Run",
     "Python.lab_4.executor": "Run",
     "Python.lab_5.executor": "Run",
+    "Python.lab_6.executor": "Run",
     "Python.test.executor": "Run",
     "Python.пример_xml.executor": "Run",
     "Python.фпфыв.executor": "Run",
@@ -225,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763378382589</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="commit 1">
+      <option name="closed" value="true" />
+      <created>1767566693136</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767566693136</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
