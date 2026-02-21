@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="commit 1">
-      <change afterPath="$PROJECT_DIR$/lab_6/lab_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semester_2/lab_7/Weather_API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Weather_API.executor": "Run",
+    "Python.additional_task.executor": "Run",
     "Python.ewe.executor": "Run",
+    "Python.hh.ru_API.executor": "Run",
     "Python.lab_1.executor": "Run",
     "Python.lab_2.executor": "Run",
     "Python.lab_2_(csv).executor": "Run",
@@ -68,6 +71,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Документы\Documents\Учеба ЫТМО\Программирование на Python\Project\Semester_1" />
       <recent name="D:\Документы\Documents\Учеба ЫТМО\Программирование на Python\Project\lab_1" />
     </key>
   </component>
@@ -230,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767566693136</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="commit 1">
+      <option name="closed" value="true" />
+      <created>1767642206008</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767642206008</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit 1">
+      <option name="closed" value="true" />
+      <created>1767642344883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1767642344883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
