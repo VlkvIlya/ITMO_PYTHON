@@ -1,11 +1,12 @@
 import requests
 import tkinter as tk
 from PIL import Image, ImageTk
-from io import BytesIO
 
 def next_cat():
     response = requests.get("https://cataas.com/cat?type=square")
-    img = Image.open(BytesIO(response.content))
+    with open('temp_cat.jpg', 'wb') as f:
+        f.write(response.content)
+    img = Image.open('temp_cat.jpg')
     photo = ImageTk.PhotoImage(img)
     label.config(image=photo)
     label.image = photo
