@@ -23,7 +23,7 @@ while True:
                 print(f'Зарплата({data['items'][i]['salary']['currency']}): от {data['items'][i]['salary']['from']}')
             else:
                 print(f'Зарплата({data['items'][i]['salary']['currency']}): от {data['items'][i]['salary']['from']} до {data['items'][i]['salary']['to']}')
-            print(f'Вакансия: {data['items'][i]['experience']['name']}')
+            print(f'Опыт работы: {data['items'][i]['experience']['name']}')
             print(f'Локация: {data['items'][i]['area']['name']}')
             print(f'Ссылка на вакансию: {data['items'][i]['alternate_url']}')
             print(f'-----------------------------------------------\n')
