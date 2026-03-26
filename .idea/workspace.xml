@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="last last task">
-      <change afterPath="$PROJECT_DIR$/Semester_2/lab_8/fly64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semester_2/lab_8/task 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semester_2/lab_8/task 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Semester_2/lab_8/variant-1.jpg" afterDir="false" />
+    <list default="true" id="59fd4439-1f9a-4304-8c47-6ec0b1b50131" name="Changes" comment="finall commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Semester_2/lab_7/hh.ru_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/Semester_2/lab_7/hh.ru_API.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,7 @@
     "Python.lab_4.executor": "Run",
     "Python.lab_5.executor": "Run",
     "Python.lab_6.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.task 1.executor": "Run",
     "Python.task 2.executor": "Run",
     "Python.test.executor": "Run",
@@ -289,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772110130941</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finall commit">
+      <option name="closed" value="true" />
+      <created>1773255437457</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1773255437457</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +318,7 @@
     <MESSAGE value="main tasks" />
     <MESSAGE value="last task" />
     <MESSAGE value="last last task" />
-    <option name="LAST_COMMIT_MESSAGE" value="last last task" />
+    <MESSAGE value="finall commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="finall commit" />
   </component>
 </project>

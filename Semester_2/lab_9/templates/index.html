@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Заметки</title>
+    <script type="text/javascript" src="/static/update.js"></script>
+    <link href="static/store.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Заметки:</h1>
+    <h3>Добавить новую заметку:</h3>
+    <form>
+        <div>
+            <input type="text" name="note_name" id="note_name">
+            <label for="note_name">Напишите заметку</label>
+        </div>
+        <button type="button" onClick="addNote()">Добавить</button>
+        <button type="button" onClick="clearNotes()">Очистить все</button>
+    </form>
+    <ul>
+        {% for note in notes_list %}
+        <li>
+            <div>
+                <div class="note-text {% if note.important %}important-note{% endif %}">{{ note.note_name }}</div>
+                <input value="{{ note.id }}" onChange="updateImportant(this)" name="important" id="{{ note.id }}"  type="checkbox" {% if note.important %} checked {% endif %}>
+                <label for="{{ note.id }}">Важно</label>р
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
