@@ -42,36 +42,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Weather_API.executor": "Run",
-    "Python.additional_task.executor": "Run",
-    "Python.dc.executor": "Run",
-    "Python.ewe.executor": "Run",
-    "Python.hh.ru_API.executor": "Run",
-    "Python.lab_1.executor": "Run",
-    "Python.lab_2.executor": "Run",
-    "Python.lab_2_(csv).executor": "Run",
-    "Python.lab_2_(xml).executor": "Run",
-    "Python.lab_3.executor": "Run",
-    "Python.lab_4.executor": "Run",
-    "Python.lab_5.executor": "Run",
-    "Python.lab_6.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task 1.executor": "Run",
-    "Python.task 2.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.пример_xml.executor": "Run",
-    "Python.фпфыв.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "editor.preferences.folding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Weather_API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.additional_task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ewe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hh.ru_API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2_(csv).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_2_(xml).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.пример_xml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.фпфыв.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Документы\Documents\Учеба ЫТМО\Программирование на Python\Project\Semester_1" />
@@ -293,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773255437457</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="finall commit">
+      <option name="closed" value="true" />
+      <created>1774539974144</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774539974144</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
